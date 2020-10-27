@@ -45,7 +45,9 @@ public class EmpController {
         System.out.println(name);
         System.out.println(sname);
         System.out.println(pname);
+        System.out.println("sss");
         return "hello springBoot!!!热部署测试";
+
     }
 
     @RequestMapping("/test")
